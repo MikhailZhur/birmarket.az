@@ -17,7 +17,6 @@ public class BaseTest {
         Configuration.baseUrl = "https://www.petrolplus.ru/";
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager";
-        Configuration.holdBrowserOpen = true;
         Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
 
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
